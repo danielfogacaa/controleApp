@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "AppControle",
+    "slug": "AppControle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "userInterfaceStyle": "automatic"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "userInterfaceStyle": "automatic",
+      "package": "com.anonymous.AppControle",
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/nunito-sans/NunitoSans_400Regular.ttf",
+            "node_modules/@expo-google-fonts/nunito-sans/NunitoSans_600SemiBold.ttf",
+            "node_modules/@expo-google-fonts/nunito-sans/NunitoSans_700Bold.ttf",
+            "node_modules/@expo-google-fonts/nunito-sans/NunitoSans_800ExtraBold.ttf"
+          ]
+        }
+      ],
+      [
+        "@react-native-community/datetimepicker",
+        {
+          "android": {
+            "datePicker": {
+              "colorAccent": {
+                "light": "#FF5722",
+                "dark": "#F233A2"
+              },
+              "textColorPrimary": {
+                "light": "#FF5722",
+                "dark": "#87922F"
+              },
+              "textColor": {
+                "light": "#FF5722",
+                "dark": "#FFFFFF"
+              }
+            }
+          }
+        }
+      ]
+    ]
+  }
+}
